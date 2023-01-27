@@ -1,16 +1,12 @@
-var = input("what is your name")
-print(var)
-print(var.upper())
+import math
 
-var = input("how old are you")
-print(var)
-print(var.upper())
-print(len(var))
-print(var.isdecimal())
+y = 1
+x = 0.5
+theta = 80 * (math.pi/180)
+g = 9.81
+v = 44
 
-
-
-
+print(y+(x*math.tan(theta))-(g*(x**2)/(2*(v*math.cos(theta))**2)))
 
 
 
